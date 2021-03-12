@@ -14,6 +14,7 @@
  -~~集成市面上一些成熟的第三方,例如MyBatis-Plus~~
 ## 各种功能正在完善中
 参考项目
+
    MybatisX：https://github.com/baomidou/MybatisX
    
    mybatis-lite：https://plugins.jetbrains.com/plugin/10921-mybatis-lite
