@@ -1,5 +1,5 @@
 ## 有啥想要的功能可以提Issues,有点迷茫了,不知道下一步该做那些功能
-# 最新版本 [1.1.9](https://plugins.jetbrains.com/plugin/16245-mybatis-smart-code-help)
+# 最新版本 [1.2.0](https://plugins.jetbrains.com/plugin/16245-mybatis-smart-code-help)
 # 支持的版本203-212.* 
 # 1.1.4版本开始 最低支持版本为2020.2.3
 ## 功能介绍
