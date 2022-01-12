@@ -1,5 +1,5 @@
-## Pro 版本(2022.1.1)正在对接中,近期会发布
-# 最新版本 [1.2.0](https://plugins.jetbrains.com/plugin/16245-mybatis-smart-code-help)
+## Pro 版本(1.2.1)正在对接中,近期会发布
+# 最新版本 [1.2.1](https://plugins.jetbrains.com/plugin/16245-mybatis-smart-code-help)
 # 支持的版本203-212.* 
 # 1.1.4版本开始 最低支持版本为2020.2.3
 ## 功能介绍
