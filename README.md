@@ -1,3 +1,4 @@
+## [English document](https://github.com/zoulejiu/mybatisSmartCodeHelp/blob/main/README-EN.md)
 ## Pro 版本[2022.1.1](https://plugins.jetbrains.com/plugin/18389-mybatis-smart-code-help-pro)
 # 免费版最新版本 [1.2.1](https://plugins.jetbrains.com/plugin/16245-mybatis-smart-code-help)
 # 支持的版本203-212.* 
