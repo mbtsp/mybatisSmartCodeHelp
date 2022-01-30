@@ -25,6 +25,11 @@
  - Support Japanese, Korean (pro version)
  - Added field annotation display to table configuration UI (pro version)
  - Custom database configuration supports one-click import of project database configuration (pro version)
+ 
+ 
+## demo
+ - check Param ![动画](https://user-images.githubusercontent.com/31949635/151687939-77cf4642-9ce8-41b7-9dea-07829ed54d13.gif)
+
 ## pending function
   - ~~Customize mybatis language, support refactoring, etc.~~
   - ~~Support to configure Service parent class~~
