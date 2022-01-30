@@ -28,7 +28,7 @@
  
  
 ## demo
- - check Param ![动画](https://user-images.githubusercontent.com/31949635/151687939-77cf4642-9ce8-41b7-9dea-07829ed54d13.gif)
+ - Detect parameters and hints and fixes ![动画](https://user-images.githubusercontent.com/31949635/151687939-77cf4642-9ce8-41b7-9dea-07829ed54d13.gif)
 
 ## pending function
   - ~~Customize mybatis language, support refactoring, etc.~~
