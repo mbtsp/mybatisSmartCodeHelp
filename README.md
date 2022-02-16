@@ -1,5 +1,5 @@
 ## [Chinese document](https://github.com/zoulejiu/mybatisSmartCodeHelp/blob/main/README-CN.md)
-## Pro version [2022.1.1](https://plugins.jetbrains.com/plugin/18389-mybatis-smart-code-help-pro)
+## Pro version [2022.1.3](https://plugins.jetbrains.com/plugin/18389-mybatis-smart-code-help-pro)
 # Free version latest version [1.2.1](https://plugins.jetbrains.com/plugin/16245-mybatis-smart-code-help)
 # Supported versions 203-212.*
 # Starting from version 1.1.4, the minimum supported version is 2020.2.3
