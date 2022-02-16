@@ -1,5 +1,5 @@
 ## [English document](https://github.com/zoulejiu/mybatisSmartCodeHelp/blob/main/README.md)
-## Pro 版本[2022.1.1](https://plugins.jetbrains.com/plugin/18389-mybatis-smart-code-help-pro)
+## Pro 版本[2022.1.3](https://plugins.jetbrains.com/plugin/18389-mybatis-smart-code-help-pro)
 # 免费版最新版本 [1.2.1](https://plugins.jetbrains.com/plugin/16245-mybatis-smart-code-help)
 # 支持的版本203-212.* 
 # 1.1.4版本开始 最低支持版本为2020.2.3
@@ -25,6 +25,8 @@
  - 支持日文，韩文(pro 版本)
  - 表配置UI增加字段注释展示(pro 版本)
  - 自定义数据库配置支持一键导入项目数据库配置(pro 版本)
+ - 支持Xml文件#{}参数跳转到方法或者实际使用类字段（pro 版本）
+ - 支持xml 文件Mybatis 参数检测(pro 版本)
 ## 演示
   - 检测参数并且提示和修复![动画](https://user-images.githubusercontent.com/31949635/151687957-63e8e956-7738-49e2-a48b-1d6b29bcec18.gif)
 
