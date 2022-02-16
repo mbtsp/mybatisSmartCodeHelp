@@ -25,7 +25,8 @@
  - Support Japanese, Korean (pro version)
  - Added field annotation display to table configuration UI (pro version)
  - Custom database configuration supports one-click import of project database configuration (pro version)
- 
+ - Support Xml file #{} parameter to jump to method or actually use class field (pro version)
+ - Support xml file Mybatis parameter detection (pro version)
  
 ## demo
  - Detect parameters and hints and fixes ![动画](https://user-images.githubusercontent.com/31949635/151687939-77cf4642-9ce8-41b7-9dea-07829ed54d13.gif)
