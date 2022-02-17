@@ -1,3 +1,4 @@
+### <center><font color=blue size=5>Various functions are being improved, and you are welcome to submit bugs to promote the improvement of the plug-in.</font></center>
 ## [Chinese document](https://github.com/zoulejiu/mybatisSmartCodeHelp/blob/main/README-CN.md)
 ## Pro version[2022.1.3](https://plugins.jetbrains.com/plugin/18389-mybatis-smart-code-help-pro) | Free version [1.2.1](https://plugins.jetbrains.com/plugin/16245-mybatis-smart-code-help)
 Feature Points | Free Version | Paid Version
@@ -41,7 +42,6 @@ Support mybatis log window to collect project mybatis sql and build it into sql 
 
 ## pending function
   - ~~Support one-key refactoring of xml parameters, etc.~~
-## Various functions are being improved, and you are welcome to submit bugs to promote the improvement of the plug-in.
 Reference project
 
     MybatisX: https://github.com/baomidou/MybatisX
