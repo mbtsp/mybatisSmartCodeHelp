@@ -29,7 +29,14 @@ Support xml file Mybatis parameter detection and quick fix | ✘|✔
 Support xml file Mybatis parameter detection | ✘|✔
 Support mybatis log window to collect project mybatis sql and build it into sql that can be executed directly| ✘|✔
 ## demo
- - Detect parameters and hints and fixes ![动画](https://user-images.githubusercontent.com/31949635/151687939-77cf4642-9ce8-41b7-9dea-07829ed54d13.gif)
+- Plugin settings![插件设置](https://user-images.githubusercontent.com/31949635/154419374-81726a9f-d411-424c-9785-aff768b761f2.gif)
+- jumps![各种跳转](https://user-images.githubusercontent.com/31949635/154419392-3d6c0f04-111c-49dd-a032-ed5bb8d74d53.gif)
+- quick fix![快速修复](https://user-images.githubusercontent.com/31949635/154419490-2fcdfbba-f289-4152-a790-22875fc446f5.gif)
+- Custom database configuration and one-click import project database configuration![配置自定义数据库和导入项目数据库配置](https://user-images.githubusercontent.com/31949635/154419550-070db2d8-b159-4a33-8d93-fec1d2975df6.gif)
+- One-click generation of single-table or multi-table CURD![生成mybatis UI 配置和操作](https://user-images.githubusercontent.com/31949635/154419631-cc87752d-128b-4bb7-8dc4-ef8ef7ac43a7.gif)
+- Mybatis xml parameter one-click completion and parameter jump![自动补全和参数跳转](https://user-images.githubusercontent.com/31949635/154419688-4fe6bc14-d991-433a-9018-b7c667968785.gif)
+- Detect parameters and hints and fixes![动画](https://user-images.githubusercontent.com/31949635/151687957-63e8e956-7738-49e2-a48b-1d6b29bcec18.gif)
+- Parameter quick fix![参数快速修复](https://user-images.githubusercontent.com/31949635/154419332-ae875668-c780-4fb2-8522-8322bda79beb.gif)
 
 ## pending function
   - ~~Support one-key refactoring of xml parameters, etc.~~
