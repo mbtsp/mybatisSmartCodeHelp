@@ -29,7 +29,14 @@
 支持xml 文件Mybatis 参数检测| ✘|✔
 支持mybatis log 窗口统一收集项目mybatis sql并且构建成可以直接执行的sql| ✘|✔
 ## 演示
+- 插件设置![插件设置](https://user-images.githubusercontent.com/31949635/154419374-81726a9f-d411-424c-9785-aff768b761f2.gif)
+- 各种跳转![各种跳转](https://user-images.githubusercontent.com/31949635/154419392-3d6c0f04-111c-49dd-a032-ed5bb8d74d53.gif)
+- 快速修复![快速修复](https://user-images.githubusercontent.com/31949635/154419490-2fcdfbba-f289-4152-a790-22875fc446f5.gif)
+- 自定义数据库配置和一键导入项目数据库配置![配置自定义数据库和导入项目数据库配置](https://user-images.githubusercontent.com/31949635/154419550-070db2d8-b159-4a33-8d93-fec1d2975df6.gif)
+- 一键生成单表或者多表CURD![生成mybatis UI 配置和操作](https://user-images.githubusercontent.com/31949635/154419631-cc87752d-128b-4bb7-8dc4-ef8ef7ac43a7.gif)
+- Mybatis xml 参数一键补全和参数跳转![自动补全和参数跳转](https://user-images.githubusercontent.com/31949635/154419688-4fe6bc14-d991-433a-9018-b7c667968785.gif)
 - 检测参数并且提示和修复![动画](https://user-images.githubusercontent.com/31949635/151687957-63e8e956-7738-49e2-a48b-1d6b29bcec18.gif)
+- 参数快速修复![参数快速修复](https://user-images.githubusercontent.com/31949635/154419332-ae875668-c780-4fb2-8522-8322bda79beb.gif)
 
 ## 待完成的功能
  - ~~支持xml 参数一键重构等等~~
