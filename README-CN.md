@@ -1,8 +1,5 @@
 ## [English document](https://github.com/zoulejiu/mybatisSmartCodeHelp/blob/main/README.md)
-## Pro 版本[2022.1.3](https://plugins.jetbrains.com/plugin/18389-mybatis-smart-code-help-pro) | 免费版最新版本 [1.2.1](https://plugins.jetbrains.com/plugin/16245-mybatis-smart-code-help)
-## 演示
-- 检测参数并且提示和修复![动画](https://user-images.githubusercontent.com/31949635/151687957-63e8e956-7738-49e2-a48b-1d6b29bcec18.gif)
-
+## Pro 版本[2022.1.3](https://plugins.jetbrains.com/plugin/18389-mybatis-smart-code-help-pro) | 免费版[1.2.1](https://plugins.jetbrains.com/plugin/16245-mybatis-smart-code-help)
 功能点  | 免费版本  |  收费版本
 -----   | ------ | -----
 支持配置DAO SERVICE 等基本信息的一键生成|  ✔ | ✔
@@ -31,10 +28,12 @@
 支持xml 文件Mybatis 参数检测和快速修复| ✘|✔
 支持xml 文件Mybatis 参数检测| ✘|✔
 支持mybatis log 窗口统一收集项目mybatis sql并且构建成可以直接执行的sql| ✘|✔
+## 演示
+- 检测参数并且提示和修复![动画](https://user-images.githubusercontent.com/31949635/151687957-63e8e956-7738-49e2-a48b-1d6b29bcec18.gif)
 
 ## 待完成的功能
  - ~~支持xml 参数一键重构等等~~
-## 各种功能正在完善中
+## 各种功能正在完善中,欢迎大家踊跃提出bug,促进插件完善
 参考项目
 
    MybatisX：https://github.com/baomidou/MybatisX
