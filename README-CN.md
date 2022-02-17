@@ -1,4 +1,4 @@
-### 各种功能正在完善中,欢迎大家踊跃提出bug,促进插件完善
+### <center><font color=blue size=5>各种功能正在完善中,欢迎大家踊跃提出bug,促进插件完善</font></center>
 ## [English document](https://github.com/zoulejiu/mybatisSmartCodeHelp/blob/main/README.md)
 ## Pro 版本[2022.1.3](https://plugins.jetbrains.com/plugin/18389-mybatis-smart-code-help-pro) | 免费版[1.2.1](https://plugins.jetbrains.com/plugin/16245-mybatis-smart-code-help)
 功能点  | 免费版本  |  收费版本
