@@ -1,3 +1,4 @@
+### 各种功能正在完善中,欢迎大家踊跃提出bug,促进插件完善
 ## [English document](https://github.com/zoulejiu/mybatisSmartCodeHelp/blob/main/README.md)
 ## Pro 版本[2022.1.3](https://plugins.jetbrains.com/plugin/18389-mybatis-smart-code-help-pro) | 免费版[1.2.1](https://plugins.jetbrains.com/plugin/16245-mybatis-smart-code-help)
 功能点  | 免费版本  |  收费版本
@@ -37,10 +38,11 @@
 - Mybatis xml 参数一键补全和参数跳转![自动补全和参数跳转](https://user-images.githubusercontent.com/31949635/154419688-4fe6bc14-d991-433a-9018-b7c667968785.gif)
 - 检测参数并且提示和修复![动画](https://user-images.githubusercontent.com/31949635/151687957-63e8e956-7738-49e2-a48b-1d6b29bcec18.gif)
 - 参数快速修复![参数快速修复](https://user-images.githubusercontent.com/31949635/154419332-ae875668-c780-4fb2-8522-8322bda79beb.gif)
+- mybatis sql log 收集![打印mybatis sql 日志](https://user-images.githubusercontent.com/31949635/154420682-52dae594-bb99-4803-886a-48eac1afed27.gif)
 
 ## 待完成的功能
  - ~~支持xml 参数一键重构等等~~
-## 各种功能正在完善中,欢迎大家踊跃提出bug,促进插件完善
+
 参考项目
 
    MybatisX：https://github.com/baomidou/MybatisX
