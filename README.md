@@ -37,6 +37,7 @@ Support mybatis log window to collect project mybatis sql and build it into sql 
 - Mybatis xml parameter one-click completion and parameter jump![自动补全和参数跳转](https://user-images.githubusercontent.com/31949635/154419688-4fe6bc14-d991-433a-9018-b7c667968785.gif)
 - Detect parameters and hints and fixes![动画](https://user-images.githubusercontent.com/31949635/151687957-63e8e956-7738-49e2-a48b-1d6b29bcec18.gif)
 - Parameter quick fix![参数快速修复](https://user-images.githubusercontent.com/31949635/154419332-ae875668-c780-4fb2-8522-8322bda79beb.gif)
+- mybatis sql log collection![打印mybatis sql 日志](https://user-images.githubusercontent.com/31949635/154420591-984ee8a8-515f-4cda-bfc9-77d14978f1e6.gif)
 
 ## pending function
   - ~~Support one-key refactoring of xml parameters, etc.~~
