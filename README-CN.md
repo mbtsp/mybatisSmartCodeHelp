@@ -28,7 +28,7 @@
 支持Xml文件#{}参数跳转到方法或者实际使用类字段| ✘|✔
 支持xml 文件Mybatis 参数检测和快速修复| ✘|✔
 支持xml 文件Mybatis 参数检测| ✘|✔
-支持mybatis log 窗口统一收集项目mybatis sql并且构建成可以直接执行的sql| ✘|✔支持
+支持mybatis log 窗口统一收集项目mybatis sql并且构建成可以直接执行的sql| ✘|✔
 支持mybatis param参数跳转| ✘|✔
 支持mybatis param 参数重构| ✘|✔
 支持mybatis if test 表达式 重构| ✘|✔
