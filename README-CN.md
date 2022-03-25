@@ -1,6 +1,6 @@
 ### <center><font color=blue size=5>各种功能正在完善中,欢迎大家踊跃提出bug,促进插件完善</font></center>
 ## [English document](https://github.com/zoulejiu/mybatisSmartCodeHelp/blob/main/README.md)
-## Pro 版本[2022.1.3](https://plugins.jetbrains.com/plugin/18389-mybatis-smart-code-help-pro) | 免费版[1.2.1](https://plugins.jetbrains.com/plugin/16245-mybatis-smart-code-help)
+## Pro 版本[2022.1.6](https://plugins.jetbrains.com/plugin/18389-mybatis-smart-code-help-pro) | 免费版[1.2.1](https://plugins.jetbrains.com/plugin/16245-mybatis-smart-code-help)
 功能点  | 免费版本  |  收费版本
 -----   | ------ | -----
 支持配置DAO SERVICE 等基本信息的一键生成|  ✔ | ✔
@@ -28,7 +28,11 @@
 支持Xml文件#{}参数跳转到方法或者实际使用类字段| ✘|✔
 支持xml 文件Mybatis 参数检测和快速修复| ✘|✔
 支持xml 文件Mybatis 参数检测| ✘|✔
-支持mybatis log 窗口统一收集项目mybatis sql并且构建成可以直接执行的sql| ✘|✔
+支持mybatis log 窗口统一收集项目mybatis sql并且构建成可以直接执行的sql| ✘|✔支持
+支持mybatis param参数跳转| ✘|✔
+支持mybatis param 参数重构| ✘|✔
+支持mybatis if test 表达式 重构| ✘|✔
+支持mybatis if test 表达式 跳转| ✘|✔
 ## 演示
 - 插件设置![插件设置](https://user-images.githubusercontent.com/31949635/154419374-81726a9f-d411-424c-9785-aff768b761f2.gif)
 - 各种跳转![各种跳转](https://user-images.githubusercontent.com/31949635/154419392-3d6c0f04-111c-49dd-a032-ed5bb8d74d53.gif)
@@ -40,8 +44,7 @@
 - 参数快速修复![参数快速修复](https://user-images.githubusercontent.com/31949635/154419332-ae875668-c780-4fb2-8522-8322bda79beb.gif)
 - mybatis sql log 收集![打印mybatis sql 日志](https://user-images.githubusercontent.com/31949635/154420682-52dae594-bb99-4803-886a-48eac1afed27.gif)
 
-## 待完成的功能
- - ~~支持xml 参数一键重构等等~~
+
 
 参考项目
 
