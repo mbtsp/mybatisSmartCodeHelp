@@ -44,8 +44,6 @@ Support mybatis if test expression jump| ✘|✔
 - Parameter quick fix![参数快速修复](https://user-images.githubusercontent.com/31949635/154419332-ae875668-c780-4fb2-8522-8322bda79beb.gif)
 - mybatis sql log collection![打印mybatis sql 日志](https://user-images.githubusercontent.com/31949635/154420591-984ee8a8-515f-4cda-bfc9-77d14978f1e6.gif)
 
-## pending function
-  - ~~Support one-key refactoring of xml parameters, etc.~~
 Reference project
 
     MybatisX: https://github.com/baomidou/MybatisX
