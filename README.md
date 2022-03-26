@@ -34,6 +34,8 @@ Support mybatis param parameter refactoring| ✘|✔
 Support mybatis if test expression refactoring| ✘|✔
 Support mybatis if test expression jump| ✘|✔
 ## demo
+- param parameter jump and if test expression parameter jump, property parameter jump![param参数跳转和if test 表达式参数跳转,property参数跳转](https://user-images.githubusercontent.com/31949635/160225943-b11b97dc-6a84-445d-a6b4-93e50b68dbe6.gif)
+- param parameter refactoring and method parameter refactoring![param参数重构和方法参数重构](https://user-images.githubusercontent.com/31949635/160225979-6d78960a-80d4-438d-b0e8-960720adb05c.gif)
 - Plugin settings![插件设置](https://user-images.githubusercontent.com/31949635/154419374-81726a9f-d411-424c-9785-aff768b761f2.gif)
 - jumps![各种跳转](https://user-images.githubusercontent.com/31949635/154419392-3d6c0f04-111c-49dd-a032-ed5bb8d74d53.gif)
 - quick fix![快速修复](https://user-images.githubusercontent.com/31949635/154419490-2fcdfbba-f289-4152-a790-22875fc446f5.gif)
