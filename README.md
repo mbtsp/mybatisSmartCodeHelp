@@ -1,6 +1,6 @@
 ### <center><font color=blue size=5>Various functions are being improved, and you are welcome to submit bugs to promote the improvement of the plug-in.</font></center>
 ## [Chinese document](https://github.com/zoulejiu/mybatisSmartCodeHelp/blob/main/README-CN.md)
-## Pro version[2022.1.3](https://plugins.jetbrains.com/plugin/18389-mybatis-smart-code-help-pro) | Free version [1.2.1](https://plugins.jetbrains.com/plugin/16245-mybatis-smart-code-help)
+## Pro version[2022.1.6](https://plugins.jetbrains.com/plugin/18389-mybatis-smart-code-help-pro) | Free version [1.2.1](https://plugins.jetbrains.com/plugin/16245-mybatis-smart-code-help)
 Feature Points | Free Version | Paid Version
 -----   | ------ | -----
 Support one-click generation of basic information such as configuring DAO SERVICE | ✔ | ✔
@@ -29,7 +29,13 @@ Support Xml file #{} parameter to jump to method or actually use class field| �
 Support xml file Mybatis parameter detection and quick fix | ✘|✔
 Support xml file Mybatis parameter detection | ✘|✔
 Support mybatis log window to collect project mybatis sql and build it into sql that can be executed directly| ✘|✔
+Support mybatis param parameter jump| ✘|✔
+Support mybatis param parameter refactoring| ✘|✔
+Support mybatis if test expression refactoring| ✘|✔
+Support mybatis if test expression jump| ✘|✔
 ## demo
+- param parameter jump and if test expression parameter jump, property parameter jump![param参数跳转和if test 表达式参数跳转,property参数跳转](https://user-images.githubusercontent.com/31949635/160225943-b11b97dc-6a84-445d-a6b4-93e50b68dbe6.gif)
+- param parameter refactoring and method parameter refactoring![param参数重构和方法参数重构](https://user-images.githubusercontent.com/31949635/160225979-6d78960a-80d4-438d-b0e8-960720adb05c.gif)
 - Plugin settings![插件设置](https://user-images.githubusercontent.com/31949635/154419374-81726a9f-d411-424c-9785-aff768b761f2.gif)
 - jumps![各种跳转](https://user-images.githubusercontent.com/31949635/154419392-3d6c0f04-111c-49dd-a032-ed5bb8d74d53.gif)
 - quick fix![快速修复](https://user-images.githubusercontent.com/31949635/154419490-2fcdfbba-f289-4152-a790-22875fc446f5.gif)
@@ -40,8 +46,6 @@ Support mybatis log window to collect project mybatis sql and build it into sql 
 - Parameter quick fix![参数快速修复](https://user-images.githubusercontent.com/31949635/154419332-ae875668-c780-4fb2-8522-8322bda79beb.gif)
 - mybatis sql log collection![打印mybatis sql 日志](https://user-images.githubusercontent.com/31949635/154420591-984ee8a8-515f-4cda-bfc9-77d14978f1e6.gif)
 
-## pending function
-  - ~~Support one-key refactoring of xml parameters, etc.~~
 Reference project
 
     MybatisX: https://github.com/baomidou/MybatisX
