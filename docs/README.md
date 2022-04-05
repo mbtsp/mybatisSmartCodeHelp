@@ -98,7 +98,15 @@
         - ![](生成findAll和selectALl方法.gif)
 ## 自动补全和参数检测
     ### - xml param 自动补全
-        
+        - ![](param参数补全.gif)
+    ### - param检测是否正确和类型是否正确
+        -  ![](param参数检测.gif)
+    ### - if test 参数自动补全
+        - ![](if test参数补全.gif)
+    ### - resultMap property检测和补全
+        - ![](resultMap property自动补全.gif)
+    ### - resultMap中的collection association自动补全
+        - ![](resultMap collection 自动补全.gif)
 ## demo
 - Plugin settings![插件设置](https://user-images.githubusercontent.com/31949635/154419374-81726a9f-d411-424c-9785-aff768b761f2.gif)
 - jumps![各种跳转](https://user-images.githubusercontent.com/31949635/154419392-3d6c0f04-111c-49dd-a032-ed5bb8d74d53.gif)
