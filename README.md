@@ -1,5 +1,5 @@
 ### <center><font color=blue size=5>Various functions are being improved, and you are welcome to submit bugs to promote the improvement of the plug-in.</font></center>
-## [Chinese document](https://github.com/zoulejiu/mybatisSmartCodeHelp/blob/main/README-CN.md)
+## [Chinese document](https://zoulejiu.github.io/mybatisSmartCodeHelp)
 ## Pro version[2022.1.6](https://plugins.jetbrains.com/plugin/18389-mybatis-smart-code-help-pro) | Free version [1.2.1](https://plugins.jetbrains.com/plugin/16245-mybatis-smart-code-help)
 Feature Points | Free Version | Paid Version
 -----   | ------ | -----
