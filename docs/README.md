@@ -93,7 +93,7 @@
     ### -  根据mapper方法名称生成sql
         - ![](方法名生成sql.gif)
     ### - 根据mapper方法名称生成sql(带if test)
-        - ![](方法名生成if test sql.gif)
+        - ![](方法名生成if-test-sql.gif)
     ### - 生成findAll和selectAll方法
         - ![](生成findAll和selectALl方法.gif)
 ## 自动补全和参数检测
