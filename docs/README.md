@@ -32,7 +32,7 @@
 | 支持mybatis param 参数重构                             | ✘    | ✔    |
 | 支持mybatis if test 表达式 重构                         | ✘    | ✔    |
 | 支持mybatis if test 表达式 跳转                         | ✘    | ✔    |
-
+| 支持生成批量更新方法                         | ✘    | ✔    |
 ## 配置数据库
  - 使用IntelliJ IDEA Ultimate 版本的，配置好项目中使用的数据库信息,可以得到内置的高级提示
  - <img alt="image" height="650" src="https://user-images.githubusercontent.com/31949635/161695601-29615d83-dfd0-4587-9e46-11d31169e382.png" width="940"/>
