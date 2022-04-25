@@ -43,7 +43,6 @@
  
 ## 数据库生成代码
   ### Ultimate 版本自带的Database 生成
-  ![image](https://user-images.githubusercontent.com/31949635/161704199-322a533b-4daf-48fc-8251-34f7d62fc9fd.png)
     - 选择右则栏位Database,点击要生成的表,如果想要多表生成，同时选择多张表,3 位置表示单表生成, 4位置表示夺标生成
     - ![image](https://user-images.githubusercontent.com/31949635/161704199-322a533b-4daf-48fc-8251-34f7d62fc9fd.png)
     - 配置代码生成位置
