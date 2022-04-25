@@ -32,7 +32,7 @@
 | 支持mybatis param 参数重构                             | ✘    | ✔    |
 | 支持mybatis if test 表达式 重构                         | ✘    | ✔    |
 | 支持mybatis if test 表达式 跳转                         | ✘    | ✔    |
-| 支持生成批量更新方法                         | ✘    | ✔    |
+| 支持生成批量更新方法                                       | ✘    | ✔    |
 ## 配置数据库
  - 使用IntelliJ IDEA Ultimate 版本的，配置好项目中使用的数据库信息,可以得到内置的高级提示
  - <img alt="image" height="650" src="https://user-images.githubusercontent.com/31949635/161695601-29615d83-dfd0-4587-9e46-11d31169e382.png" width="940"/>
@@ -44,7 +44,6 @@
 ## 数据库生成代码
   ### Ultimate 版本自带的Database 生成
     - 选择右则栏位Database,点击要生成的表,如果想要多表生成，同时选择多张表,3 位置表示单表生成, 4位置表示夺标生成
-    ![image](https://user-images.githubusercontent.com/31949635/161704199-322a533b-4daf-48fc-8251-34f7d62fc9fd.png)
     - 配置代码生成位置
       - 1.要生成的表名 
       - 2.生成之后类名称 
@@ -61,29 +60,29 @@
       - 13.service接口对应的工程目录eg：D:\workspace\demo\src\main\java
       - 14.service实现类所在的包名称(只要java目录下的包路径就可以)
       - 15.service实现类对应的工程目录eg：D:\workspace\demo\src\main\java
-     ![img](https://user-images.githubusercontent.com/31949635/165072932-066e0a32-f397-44f1-9b18-b9bf490405b6.png)
+      - ![](/ScreenShot/img.png)
     - 配置数据库表字段信息
      - 可以调整要生成的字段级别信息,类型
-      ![img_1](https://user-images.githubusercontent.com/31949635/165072966-222340c3-b919-4188-abff-c9306db983dd.png)
+      - ![](ScreenShot/img_1.png)
     - 额外生成信息配置
-    - ![img_2](https://user-images.githubusercontent.com/31949635/165072985-b9b68f1f-145d-478e-8a8e-8bc99dd049f8.png)
+    - ![](ScreenShot/img_2.png)
     - 配置好了之后,直接点击完成
   ### 社区版生成
      - 先查看插件是否激活成功
-       - ![img_3](https://user-images.githubusercontent.com/31949635/165073007-5fe33a90-0431-4ab2-a1b0-7300ade5ff0f.png)
-       - ![img_4](https://user-images.githubusercontent.com/31949635/165073015-ad255c91-9f1c-49a5-9a47-7c6934c17373.png)
+       - ![](ScreenShot/img_3.png)
+       - ![](ScreenShot/img_4.png)
      - 激活插件成功之后,还要去配置中查看插件带的数据库工具是否开启,选择勾选启动内置数据库工具
         - File | Settings | Tools | Mybatis Smart Code Help Pro
-        - ![img_5](https://user-images.githubusercontent.com/31949635/165073040-0c6e35e3-83c9-4352-87f8-3ce2239a6e48.png)
+        - ![](ScreenShot/img_5.png)
      - 勾选之后,点击重起idea,这个时候在右则就有数据库工具图标出来了
-        - ![img_6](https://user-images.githubusercontent.com/31949635/165073056-2418fc17-8aca-42fc-852c-9f15108d05f3.png)
+        - ![](ScreenShot/img_6.png)
      - 点击+来添加数据库配置,可以选择点击导入配置按钮来快速导入数据库的配置
      - 目前只支持spring boot 自带的数据库配置,确保配置文件中有配置数据库,yml 和property文件的都支持解析
-        - ![img_7](https://user-images.githubusercontent.com/31949635/165073076-52d34551-8eaa-4264-9cbd-f79a963598a3.png)
+        - ![](ScreenShot/img_7.png)
     - 支持一键自动下载驱动文件
-        - ![img_8](https://user-images.githubusercontent.com/31949635/165073099-31ff341c-8819-4b72-86ee-866b75bfcf67.png)
+        - ![](ScreenShot/img_8.png)
     - 支持选择数据库类型和驱动版本
-        - ![img_9](https://user-images.githubusercontent.com/31949635/165073115-3fe61b83-84c6-441b-8e68-863f9ac4548b.png)
+        - ![](ScreenShot/img_9.png)
     - 后续生成操作就和Ultimate自动的一样操作就可以了
   ### 代码合并方式
     -  代码合并如果在额外配置界面勾选了生成注释,则mybatis 内置的方法会进行覆盖,其他的方法合并的方式处理
@@ -91,27 +90,26 @@
       已经使用了他们官网提供的不勾选生成注释也可以进行合并覆盖的插件进行处理
 ## 方法名生成sql
     ### -  根据mapper方法名称生成sql
-        - ![方法名生成sql](https://user-images.githubusercontent.com/31949635/165073145-dea80b73-4398-4b65-be8e-8668c88123db.gif)
+        - ![](ScreenShot/方法名生成sql.gif)
     ### - 根据mapper方法名称生成sql(带if test)
-        - ![方法名生成if-test-sql](https://user-images.githubusercontent.com/31949635/165073179-a82f86e7-5e41-4ee5-851a-82a3b931424b.gif)
+        - ![](ScreenShot/方法名生成if-test-sql.gif)
     ### - 生成findAll和selectAll方法
-        - ![生成findAll和selectALl方法](https://user-images.githubusercontent.com/31949635/165073195-7b7a8f68-bcbd-4bf6-ab6c-8371cc869962.gif)
+        - ![](ScreenShot/生成findAll和selectALl方法.gif)
 ## 自动补全和参数检测
     ### - xml param 自动补全
-        - ![param参数补全](https://user-images.githubusercontent.com/31949635/165073236-38ac83a4-8b7c-4304-9e1f-dc2421f57e7d.gif)
+        - ![](ScreenShot/param参数补全.gif)
     ### - param检测是否正确和类型是否正确
-        - ![param参数检测](https://user-images.githubusercontent.com/31949635/165073214-63b1c458-b548-40c8-b9e7-bc374a2f2fbb.gif)
+        - ![](ScreenShot/param参数检测.gif)
     ### - if test 参数自动补全
-        - ![iftest参数补全](https://user-images.githubusercontent.com/31949635/165073305-c24b0e49-59e9-4ba4-ab50-1e6f613dd568.gif)
+        - ![](ScreenShot/iftest参数补全.gif)
     ### - resultMap property检测和补全
-        - ![resultMap-property自动补全](https://user-images.githubusercontent.com/31949635/165073317-f5aee0da-2f88-47fe-8aa7-6b06a6331b0b.gif)
+        - ![](ScreenShot/resultMap-property自动补全.gif)
     ### - resultMap中的collection association自动补全
-        - ![resultMap-collection自动补全](https://user-images.githubusercontent.com/31949635/165073328-519d2cc2-a92c-4e1b-bf56-733c20257e26.gif)
-
+        - ![](ScreenShot/resultMap-collection自动补全.gif)
 ## Mybatis日志拦截
-    ### - mybatis 日志拦截,并且自动格式化sql和填充参数
-        - ![d](https://user-images.githubusercontent.com/31949635/165073352-56528911-c431-41a4-a864-a453c917bcda.gif)
-
+    ### - mybatis日志拦截,并且自动格式化sql和填充参数
+        - ![](ScreenShot/mybatis-sql-log.gif)
+    
 ## demo
 - Plugin settings![插件设置](https://user-images.githubusercontent.com/31949635/154419374-81726a9f-d411-424c-9785-aff768b761f2.gif)
 - jumps![各种跳转](https://user-images.githubusercontent.com/31949635/154419392-3d6c0f04-111c-49dd-a032-ed5bb8d74d53.gif)

@@ -46,86 +46,73 @@
 
 ## database generation code
 
-### Database generation that comes with the Ultimate version
-
-    - Select the right column Database, click on the table to be generated, if you want to generate multiple tables, select multiple tables at the same time, the 3 position means single table generation, and the 4 position means outright generation
-    - ![image](https://user-images.githubusercontent.com/31949635/161704199-322a533b-4daf-48fc-8251-34f7d62fc9fd.png)
-    - Configure code generation location
-      - 1. The name of the table to be generated
-      - 2. Class name after generation
-      - 3. Remove the prefix, such as sys_user, if you want to generate a User, you need to enter sys in it
-      - 4. When there are multiple modules, you need to choose which module to generate
-      - 5. The class to be generated stores the package name path (as long as the package path in the java directory is ok)
-      - 6.model store the project directory, eg: D:\workspace\demo\src\main\java
-      - 7. The mappper to be generated has a package path (as long as the package path in the java directory is ok)
-      - 8. The project directory stored by mapper, eg: D:\workspace\demo\src\main\java
-      - 9. Generate the package name corresponding to the mapper xml file (the file name under resource is fine)
-      - 10. The mapper xml file stores the project directory, eg: D:\workspace\demo\src\main\resources
-      - 11. Simple mode will ignore the method named example, full mode will generate all methods, pure mode will not generate methods, only classes will be generated
-      - 12. The name of the package where the service interface is located (as long as the package path in the java directory is ok)
-      - 13. The project directory corresponding to the service interface eg: D:\workspace\demo\src\main\java
-      - 14. The name of the package where the service implementation class is located (as long as the package path in the java directory is ok)
-      - 15. The project directory corresponding to the service implementation class eg: D:\workspace\demo\src\main\java
-    - ![](../img.png)
-    - Configure database table field information
-     - The type of field-level information to be generated can be adjusted
-    - ![](../img_1.png)
-    - Additional build information configuration
-    - ![](../img_2.png)
-    - After the configuration is complete, click Finish
-
-### Community edition build
-
+  ### Database generation that comes with the Ultimate version
+- Select the right column Database, click on the table to be generated, if you want to generate multiple tables, select multiple tables at the same time, the 3 position means single table generation, and the 4 position means outright generation
+- Configure code generation location
+  - 1. The name of the table to be generated
+  - 2. Class name after generation
+  - 3. Remove the prefix, such as sys_user, if you want to generate a User, you need to enter sys in it
+  - 4. When there are multiple modules, you need to choose which module to generate
+  - 5. The class to be generated stores the package name path (as long as the package path in the java directory is ok)
+  - 6. model store the project directory, eg: D:\workspace\demo\src\main\java
+  - 7. The mappper to be generated has a package path (as long as the package path in the java directory is ok)
+  - 8. The project directory stored by mapper, eg: D:\workspace\demo\src\main\java
+  - 9. Generate the package name corresponding to the mapper xml file (the file name under resource is fine)
+  - 10. The mapper xml file stores the project directory, eg: D:\workspace\demo\src\main\resources
+  - 11. Simple mode will ignore the method named example, full mode will generate all methods, pure mode will not generate methods, only classes will be generated
+  - 12. The name of the package where the service interface is located (as long as the package path in the java directory is ok)
+  - 13. The project directory corresponding to the service interface eg: D:\workspace\demo\src\main\java
+  - 14. The name of the package where the service implementation class is located (as long as the package path in the java directory is ok)
+  - 15. The project directory corresponding to the service implementation class eg: D:\workspace\demo\src\main\java
+  - ![](../ScreenShot/img.png)
+- Configure database table field information
+  - The type of field-level information to be generated can be adjusted
+   - ![](../ScreenShot/img_1.png)
+- Additional build information configuration
+- ![](../ScreenShot/img_2.png)
+- After the configuration is complete, click Finish
+  ### Community edition build
      - Check if the plugin is activated successfully
-       - ![]
-       - ![](../img_4.png)
+       - ![](../ScreenShot/img_3.png)
+       - ![](../ScreenShot/img_4.png)
      - After the activation of the plugin is successful, go to the configuration to check whether the database tool with the plugin is enabled, and select to start the built-in database tool
         - File | Settings | Tools | Mybatis Smart Code Help Pro
-        - ![](../img_5.png)
+        - ![](../ScreenShot/img_5.png)
      - After checking it, click to restart the idea, at this time there will be a database tool icon on the right
-        - ![](../img_6.png)
+        - ![](../ScreenShot/img_6.png)
      - Click + to add the database configuration, you can choose to click the import configuration button to quickly import the database configuration, currently only supports spring boot
         The built-in database configuration ensures that there is a configuration database in the configuration file, and both yml and property files support parsing
-        - ![](../img_7.png)
+        - ![](../ScreenShot/img_7.png)
     - Support one-click automatic download of driver files
-        - ![](../img_8.png)
+        - ![](../ScreenShot/img_8.png)
     - Support selection of database type and driver version
-        - ![](../img_9.png)
+        - ![](../ScreenShot/img_9.png)
     - The subsequent generation operation is the same as the automatic operation of Ultimate.
-
-### code merging
-
-   - Code merging If the Generate Comment is checked in the additional configuration interface, the built-in method of mybatis will be overwritten, and other methods will be merged.
-   - If you do not check Generate Comments in the additional configuration interface, it may not be overwritten, and there will be duplicate methods. It is recommended to select Generate Comments. Currently in this plugin
+  ### code merging
+- Code merging If Generate Comments is checked in the additional configuration interface, the built-in methods of mybatis will be overwritten, and other methods will be merged.
+- If you do not check Generate Comments in the additional configuration interface, it may not be overwritten, and there will be duplicate methods. It is recommended to select Generate Comments. Currently in this plugin
     The plugins provided by their official website that can be merged and covered without checking the generated comments have been used for processing
-
 ## method name to generate sql
-
-    ### -  Generate sql based on mapper method name
-        - ![](../方法名生成sql.gif)
-    ### - Generate sql based on mapper method name (with if test)
-        - ![](../方法名生成if-test-sql.gif)
-    ### - Generate findAll and selectAll methods
-        - ![](../生成findAll和selectALl方法.gif)
-
+### -  Generate sql based on mapper method name
+  - ![](../ScreenShot/方法名生成sql.gif)
+### - Generate sql based on mapper method name (with if test)
+  - ![](../ScreenShot/方法名生成if-test-sql.gif)
+### - Generate findAll and selectAll methods
+  - ![](../ScreenShot/生成findAll和selectALl方法.gif)
 ## Autocompletion and parameter detection
-
-    ### - xml param autocompletion
-        - ![](../param参数补全.gif)
-    ### - param check is correct and the type is correct
-        -  ![](../param参数检测.gif)
-    ### - if test parameter auto-completion
-        - ![](../iftest参数补全.gif)
-    ### - resultMap property detection and completion
-        - ![](../resultMap-property自动补全.gif)
-    ### - Collection association auto-completion in resultMap
-        - ![](../resultMap-collection自动补全.gif)
-
+### - xml param autocompletion
+  - ![](../ScreenShot/param参数补全.gif)
+### - param check is correct and the type is correct
+  -  ![](../ScreenShot/param参数检测.gif)
+### - if test parameter auto-completion
+  - ![](../ScreenShot/iftest参数补全.gif)
+### - resultMap property detection and completion
+  - ![](../ScreenShot/resultMap-property自动补全.gif)
+### - Collection association auto-completion in resultMap
+  - ![](../ScreenShot/resultMap-collection自动补全.gif)
 ## Mybatis log interception
-
-    ### - mybatis log interception, and automatically format sql and fill parameters
-        - ![](../mybatis-sql日志拦截,并且填充参数格式化.gif)
-
+### - mybatis log interception, and automatically format sql and fill parameters
+  - ![](../ScreenShot/mybatis-sql-log.gif)
 ## demo
 
 - Plugin
