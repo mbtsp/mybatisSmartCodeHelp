@@ -44,7 +44,7 @@
 ## 数据库生成代码
   ### Ultimate 版本自带的Database 生成
     - 选择右则栏位Database,点击要生成的表,如果想要多表生成，同时选择多张表,3 位置表示单表生成, 4位置表示夺标生成
-    - ![image](https://user-images.githubusercontent.com/31949635/161704199-322a533b-4daf-48fc-8251-34f7d62fc9fd.png)
+    ![image](https://user-images.githubusercontent.com/31949635/161704199-322a533b-4daf-48fc-8251-34f7d62fc9fd.png)
     - 配置代码生成位置
       - 1.要生成的表名 
       - 2.生成之后类名称 
@@ -61,10 +61,10 @@
       - 13.service接口对应的工程目录eg：D:\workspace\demo\src\main\java
       - 14.service实现类所在的包名称(只要java目录下的包路径就可以)
       - 15.service实现类对应的工程目录eg：D:\workspace\demo\src\main\java
-    - ![img](https://user-images.githubusercontent.com/31949635/165072932-066e0a32-f397-44f1-9b18-b9bf490405b6.png)
+     ![img](https://user-images.githubusercontent.com/31949635/165072932-066e0a32-f397-44f1-9b18-b9bf490405b6.png)
     - 配置数据库表字段信息
      - 可以调整要生成的字段级别信息,类型
-    -  ![img_1](https://user-images.githubusercontent.com/31949635/165072966-222340c3-b919-4188-abff-c9306db983dd.png)
+      ![img_1](https://user-images.githubusercontent.com/31949635/165072966-222340c3-b919-4188-abff-c9306db983dd.png)
     - 额外生成信息配置
     - ![img_2](https://user-images.githubusercontent.com/31949635/165072985-b9b68f1f-145d-478e-8a8e-8bc99dd049f8.png)
     - 配置好了之后,直接点击完成
