@@ -61,29 +61,29 @@
       - 13.service接口对应的工程目录eg：D:\workspace\demo\src\main\java
       - 14.service实现类所在的包名称(只要java目录下的包路径就可以)
       - 15.service实现类对应的工程目录eg：D:\workspace\demo\src\main\java
-    - ![img.png](img.png)
+    - ![img](https://user-images.githubusercontent.com/31949635/165072932-066e0a32-f397-44f1-9b18-b9bf490405b6.png)
     - 配置数据库表字段信息
      - 可以调整要生成的字段级别信息,类型
-    -  ![ScreenShot/img_1.png](img_1.png)
+    -  ![img_1](https://user-images.githubusercontent.com/31949635/165072966-222340c3-b919-4188-abff-c9306db983dd.png)
     - 额外生成信息配置
-    - ![image](https://github.com/zoulejiu/mybatisSmartCodeHelp/blob/main/ScreenShot/img_2.png)
+    - ![img_2](https://user-images.githubusercontent.com/31949635/165072985-b9b68f1f-145d-478e-8a8e-8bc99dd049f8.png)
     - 配置好了之后,直接点击完成
   ### 社区版生成
      - 先查看插件是否激活成功
-       - ![image](https://github.com/zoulejiu/mybatisSmartCodeHelp/blob/main/ScreenShot/img_3.png)
-       - ![image](https://github.com/zoulejiu/mybatisSmartCodeHelp/blob/main/ScreenShot/img_4.png)
+       - ![img_3](https://user-images.githubusercontent.com/31949635/165073007-5fe33a90-0431-4ab2-a1b0-7300ade5ff0f.png)
+       - ![img_4](https://user-images.githubusercontent.com/31949635/165073015-ad255c91-9f1c-49a5-9a47-7c6934c17373.png)
      - 激活插件成功之后,还要去配置中查看插件带的数据库工具是否开启,选择勾选启动内置数据库工具
         - File | Settings | Tools | Mybatis Smart Code Help Pro
-        - ![image](https://github.com/zoulejiu/mybatisSmartCodeHelp/blob/main/ScreenShot/img_5.png)
+        - ![img_5](https://user-images.githubusercontent.com/31949635/165073040-0c6e35e3-83c9-4352-87f8-3ce2239a6e48.png)
      - 勾选之后,点击重起idea,这个时候在右则就有数据库工具图标出来了
-        - ![image](https://github.com/zoulejiu/mybatisSmartCodeHelp/blob/main/ScreenShot/img_6.png)
+        - ![img_6](https://user-images.githubusercontent.com/31949635/165073056-2418fc17-8aca-42fc-852c-9f15108d05f3.png)
      - 点击+来添加数据库配置,可以选择点击导入配置按钮来快速导入数据库的配置,目前只支持spring boot 
         自带的数据库配置,确保配置文件中有配置数据库,yml 和property文件的都支持解析
-        - ![image](https://github.com/zoulejiu/mybatisSmartCodeHelp/blob/main/ScreenShot/img_7.png)
+        - ![img_7](https://user-images.githubusercontent.com/31949635/165073076-52d34551-8eaa-4264-9cbd-f79a963598a3.png)
     - 支持一键自动下载驱动文件
-        - ![image](https://github.com/zoulejiu/mybatisSmartCodeHelp/blob/main/ScreenShot/img_8.png)
+        - ![img_8](https://user-images.githubusercontent.com/31949635/165073099-31ff341c-8819-4b72-86ee-866b75bfcf67.png)
     - 支持选择数据库类型和驱动版本
-        - ![image](https://github.com/zoulejiu/mybatisSmartCodeHelp/blob/main/ScreenShot/img_9.png)
+        - ![img_9](https://user-images.githubusercontent.com/31949635/165073115-3fe61b83-84c6-441b-8e68-863f9ac4548b.png)
     - 后续生成操作就和Ultimate自动的一样操作就可以了
   ### 代码合并方式
     -  代码合并如果在额外配置界面勾选了生成注释,则mybatis 内置的方法会进行覆盖,其他的方法合并的方式处理
@@ -91,26 +91,26 @@
       已经使用了他们官网提供的不勾选生成注释也可以进行合并覆盖的插件进行处理
 ## 方法名生成sql
     ### -  根据mapper方法名称生成sql
-        - ![image](https://github.com/zoulejiu/mybatisSmartCodeHelp/blob/main/ScreenShot/方法名生成sql.gif)
+        - ![方法名生成sql](https://user-images.githubusercontent.com/31949635/165073145-dea80b73-4398-4b65-be8e-8668c88123db.gif)
     ### - 根据mapper方法名称生成sql(带if test)
-        - ![image](https://github.com/zoulejiu/mybatisSmartCodeHelp/blob/main/ScreenShot/方法名生成if-test-sql.gif)
+        - ![方法名生成if-test-sql](https://user-images.githubusercontent.com/31949635/165073179-a82f86e7-5e41-4ee5-851a-82a3b931424b.gif)
     ### - 生成findAll和selectAll方法
-        - ![image](https://github.com/zoulejiu/mybatisSmartCodeHelp/blob/main/ScreenShot/生成findAll和selectALl方法.gif)
+        - ![生成findAll和selectALl方法](https://user-images.githubusercontent.com/31949635/165073195-7b7a8f68-bcbd-4bf6-ab6c-8371cc869962.gif)
 ## 自动补全和参数检测
     ### - xml param 自动补全
-        - ![image](https://github.com/zoulejiu/mybatisSmartCodeHelp/blob/main/ScreenShot/param参数补全.gif)
+        - ![param参数补全](https://user-images.githubusercontent.com/31949635/165073236-38ac83a4-8b7c-4304-9e1f-dc2421f57e7d.gif)
     ### - param检测是否正确和类型是否正确
-        - ![image](https://github.com/zoulejiu/mybatisSmartCodeHelp/blob/main/ScreenShot/param参数检测.gif)
+        - ![param参数检测](https://user-images.githubusercontent.com/31949635/165073214-63b1c458-b548-40c8-b9e7-bc374a2f2fbb.gif)
     ### - if test 参数自动补全
-        - ![image](https://github.com/zoulejiu/mybatisSmartCodeHelp/blob/main/ScreenShot/iftest参数补全.gif)
+        - ![iftest参数补全](https://user-images.githubusercontent.com/31949635/165073305-c24b0e49-59e9-4ba4-ab50-1e6f613dd568.gif)
     ### - resultMap property检测和补全
-        - ![image](https://github.com/zoulejiu/mybatisSmartCodeHelp/blob/main/ScreenShot/resultMap-property自动补全.gif)
+        - ![resultMap-property自动补全](https://user-images.githubusercontent.com/31949635/165073317-f5aee0da-2f88-47fe-8aa7-6b06a6331b0b.gif)
     ### - resultMap中的collection association自动补全
-        - ![image](https://github.com/zoulejiu/mybatisSmartCodeHelp/blob/main/ScreenShot/resultMap-collection自动补全.gif)
+        - ![resultMap-collection自动补全](https://user-images.githubusercontent.com/31949635/165073328-519d2cc2-a92c-4e1b-bf56-733c20257e26.gif)
 
 ## Mybatis日志拦截
     ### - mybatis 日志拦截,并且自动格式化sql和填充参数
-        - ![image](https://github.com/zoulejiu/mybatisSmartCodeHelp/blob/main/ScreenShot/mybatis-sql日志拦截,并且填充参数格式化.gif)
+        - ![mybatis-sql日志拦截,并且填充参数格式化](https://user-images.githubusercontent.com/31949635/165073352-56528911-c431-41a4-a864-a453c917bcda.gif)
 
 ## demo
 - Plugin settings![插件设置](https://user-images.githubusercontent.com/31949635/154419374-81726a9f-d411-424c-9785-aff768b761f2.gif)
