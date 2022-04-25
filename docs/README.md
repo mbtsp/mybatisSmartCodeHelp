@@ -77,8 +77,8 @@
         - ![img_5](https://user-images.githubusercontent.com/31949635/165073040-0c6e35e3-83c9-4352-87f8-3ce2239a6e48.png)
      - 勾选之后,点击重起idea,这个时候在右则就有数据库工具图标出来了
         - ![img_6](https://user-images.githubusercontent.com/31949635/165073056-2418fc17-8aca-42fc-852c-9f15108d05f3.png)
-     - 点击+来添加数据库配置,可以选择点击导入配置按钮来快速导入数据库的配置,目前只支持spring boot 
-        自带的数据库配置,确保配置文件中有配置数据库,yml 和property文件的都支持解析
+     - 点击+来添加数据库配置,可以选择点击导入配置按钮来快速导入数据库的配置
+     - 目前只支持spring boot 自带的数据库配置,确保配置文件中有配置数据库,yml 和property文件的都支持解析
         - ![img_7](https://user-images.githubusercontent.com/31949635/165073076-52d34551-8eaa-4264-9cbd-f79a963598a3.png)
     - 支持一键自动下载驱动文件
         - ![img_8](https://user-images.githubusercontent.com/31949635/165073099-31ff341c-8819-4b72-86ee-866b75bfcf67.png)
@@ -110,7 +110,7 @@
 
 ## Mybatis日志拦截
     ### - mybatis 日志拦截,并且自动格式化sql和填充参数
-        - ![mybatis-sql日志拦截,并且填充参数格式化](https://user-images.githubusercontent.com/31949635/165073352-56528911-c431-41a4-a864-a453c917bcda.gif)
+        - ![d](https://user-images.githubusercontent.com/31949635/165073352-56528911-c431-41a4-a864-a453c917bcda.gif)
 
 ## demo
 - Plugin settings![插件设置](https://user-images.githubusercontent.com/31949635/154419374-81726a9f-d411-424c-9785-aff768b761f2.gif)
