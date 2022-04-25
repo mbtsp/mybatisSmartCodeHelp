@@ -107,6 +107,9 @@
         - ![](resultMap-property自动补全.gif)
     ### - resultMap中的collection association自动补全
         - ![](resultMap-collection自动补全.gif)
+## Mybatis日志拦截
+    ### - mybatis 日志拦截,并且自动格式化sql和填充参数
+        - ![](mybatis-sql日志拦截,并且填充参数格式化.gif)
 ## demo
 - Plugin settings![插件设置](https://user-images.githubusercontent.com/31949635/154419374-81726a9f-d411-424c-9785-aff768b761f2.gif)
 - jumps![各种跳转](https://user-images.githubusercontent.com/31949635/154419392-3d6c0f04-111c-49dd-a032-ed5bb8d74d53.gif)
@@ -117,6 +120,8 @@
 - Detect parameters and hints and fixes![动画](https://user-images.githubusercontent.com/31949635/151687957-63e8e956-7738-49e2-a48b-1d6b29bcec18.gif)
 - Parameter quick fix![参数快速修复](https://user-images.githubusercontent.com/31949635/154419332-ae875668-c780-4fb2-8522-8322bda79beb.gif)
 - mybatis sql log collection![打印mybatis sql 日志](https://user-images.githubusercontent.com/31949635/154420591-984ee8a8-515f-4cda-bfc9-77d14978f1e6.gif)
+
+
 
 ## pending function
   - ~~Support one-key refactoring of xml parameters, etc.~~
