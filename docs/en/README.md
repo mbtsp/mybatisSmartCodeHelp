@@ -77,7 +77,7 @@
 ### Community edition build
 
      - Check if the plugin is activated successfully
-       - ![](../img_3.png)
+       - ![]
        - ![](../img_4.png)
      - After the activation of the plugin is successful, go to the configuration to check whether the database tool with the plugin is enabled, and select to start the built-in database tool
         - File | Settings | Tools | Mybatis Smart Code Help Pro
