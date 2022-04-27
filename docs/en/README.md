@@ -89,30 +89,36 @@
         - ![](../ScreenShot/img_9.png)
     - The subsequent generation operation is the same as the automatic operation of Ultimate.
   ### code merging
-- Code merging If Generate Comments is checked in the additional configuration interface, the built-in methods of mybatis will be overwritten, and other methods will be merged.
-- If you do not check Generate Comments in the additional configuration interface, it may not be overwritten, and there will be duplicate methods. It is recommended to select Generate Comments. Currently in this plugin
+    - Code merging If Generate Comments is checked in the additional configuration interface, the built-in methods of mybatis will be overwritten, and other methods will be merged.
+    - If you do not check Generate Comments in the additional configuration interface, it may not be overwritten, and there will be duplicate methods. It is recommended to select Generate Comments. Currently in this plugin
     The plugins provided by their official website that can be merged and covered without checking the generated comments have been used for processing
+  ### One-click generation of the xml file of mybatis generator
+    - ![](../ScreenShot/一键生成mybatis-generator-config.xml.gif)
 ## method name to generate sql
-### -  Generate sql based on mapper method name
-  - ![](../ScreenShot/方法名生成sql.gif)
-### - Generate sql based on mapper method name (with if test)
-  - ![](../ScreenShot/方法名生成if-test-sql.gif)
-### - Generate findAll and selectAll methods
-  - ![](../ScreenShot/生成findAll和selectALl方法.gif)
+  ### Generate sql based on mapper method name
+  ![](../ScreenShot/方法名生成sql.gif)
+  ###  Generate sql based on mapper method name (with if test)
+  ![](../ScreenShot/方法名生成if-test-sql.gif)
+  ###  Generate findAll and selectAll methods
+  ![](../ScreenShot/生成findAll和selectALl方法.gif)
+  ###  Generate insertAll and insertBatch methods
+  ![](../ScreenShot/生成insertAll和insertBatch方法.gif)
+  ###  Generate updateBatch and updateBatchSeletive methods
+  ![](../ScreenShot/生成updateBatch和updateBatchSeletive方法.gif)
 ## Autocompletion and parameter detection
-### - xml param autocompletion
-  - ![](../ScreenShot/param参数补全.gif)
-### - param check is correct and the type is correct
-  -  ![](../ScreenShot/param参数检测.gif)
-### - if test parameter auto-completion
-  - ![](../ScreenShot/iftest参数补全.gif)
-### - resultMap property detection and completion
-  - ![](../ScreenShot/resultMap-property自动补全.gif)
-### - Collection association auto-completion in resultMap
-  - ![](../ScreenShot/resultMap-collection自动补全.gif)
+  ###  xml param autocompletion
+  ![](../ScreenShot/param参数补全.gif)
+  ###  param check is correct and the type is correct
+  ![](../ScreenShot/param参数检测.gif)
+  ###  if test parameter auto-completion
+  ![](../ScreenShot/iftest参数补全.gif)
+  ###  resultMap property detection and completion
+  ![](../ScreenShot/resultMap-property自动补全.gif)
+  ###  Collection association auto-completion in resultMap
+  ![](../ScreenShot/resultMap-collection自动补全.gif)
 ## Mybatis log interception
-### - mybatis log interception, and automatically format sql and fill parameters
-  - ![](../ScreenShot/mybatis-sql-log.gif)
+  ###  mybatis log interception, and automatically format sql and fill parameters
+  ![](../ScreenShot/mybatis-sql-log.gif)
 ## demo
 
 - Plugin

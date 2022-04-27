@@ -88,6 +88,8 @@
     -  代码合并如果在额外配置界面勾选了生成注释,则mybatis 内置的方法会进行覆盖,其他的方法合并的方式处理
     -  如果在额外配置界面没有勾选生成注释,则可能不会进行覆盖,会出现重复方法,建议勾选生成注释，当前本插件中
       已经使用了他们官网提供的不勾选生成注释也可以进行合并覆盖的插件进行处理
+  ### 一键生成mybatis generator的XMl文件
+    -  ![](ScreenShot/一键生成mybatis-generator-config.xml.gif)      
 ## 方法名生成sql
     ### -  根据mapper方法名称生成sql
         - ![](ScreenShot/方法名生成sql.gif)
@@ -95,6 +97,10 @@
         - ![](ScreenShot/方法名生成if-test-sql.gif)
     ### - 生成findAll和selectAll方法
         - ![](ScreenShot/生成findAll和selectALl方法.gif)
+    ### - 生成insertAll和insertBatch方法
+        - ![](ScreenShot/生成insertAll和insertBatch方法.gif)
+    ### - 生成updateBatch和updateBatchSelective方法
+        - ![](ScreenShot/生成updateBatch和updateBatchSeletive方法.gif)
 ## 自动补全和参数检测
     ### - xml param 自动补全
         - ![](ScreenShot/param参数补全.gif)
@@ -109,6 +115,7 @@
 ## Mybatis日志拦截
     ### - mybatis日志拦截,并且自动格式化sql和填充参数
         - ![](ScreenShot/mybatis-sql-log.gif)
+
     
 ## demo
 - Plugin settings![插件设置](https://user-images.githubusercontent.com/31949635/154419374-81726a9f-d411-424c-9785-aff768b761f2.gif)
