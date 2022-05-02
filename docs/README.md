@@ -33,6 +33,7 @@
 | 支持mybatis if test 表达式 重构                         | ✘    | ✔    |
 | 支持mybatis if test 表达式 跳转                         | ✘    | ✔    |
 | 支持生成批量更新方法                                       | ✘    | ✔    |
+| 支持手动选择mybatis sql日志转成sql并执行(2022.2.0版本开始支持)      | ✘    | ✔    |
 ## 配置数据库
  - 使用IntelliJ IDEA Ultimate 版本的，配置好项目中使用的数据库信息,可以得到内置的高级提示
  - <img alt="image" height="650" src="https://user-images.githubusercontent.com/31949635/161695601-29615d83-dfd0-4587-9e46-11d31169e382.png" width="940"/>
@@ -115,21 +116,14 @@
 ## Mybatis日志拦截
     ### - mybatis日志拦截,并且自动格式化sql和填充参数
         - ![](ScreenShot/mybatis-sql-log.gif)
-
-    
-## demo
-- Plugin settings![插件设置](https://user-images.githubusercontent.com/31949635/154419374-81726a9f-d411-424c-9785-aff768b761f2.gif)
-- jumps![各种跳转](https://user-images.githubusercontent.com/31949635/154419392-3d6c0f04-111c-49dd-a032-ed5bb8d74d53.gif)
-- quick fix![快速修复](https://user-images.githubusercontent.com/31949635/154419490-2fcdfbba-f289-4152-a790-22875fc446f5.gif)
-- Custom database configuration and one-click import project database configuration![配置自定义数据库和导入项目数据库配置](https://user-images.githubusercontent.com/31949635/154419550-070db2d8-b159-4a33-8d93-fec1d2975df6.gif)
-- One-click generation of single-table or multi-table CURD![生成mybatis UI 配置和操作](https://user-images.githubusercontent.com/31949635/154419631-cc87752d-128b-4bb7-8dc4-ef8ef7ac43a7.gif)
-- Mybatis xml parameter one-click completion and parameter jump![自动补全和参数跳转](https://user-images.githubusercontent.com/31949635/154419688-4fe6bc14-d991-433a-9018-b7c667968785.gif)
-- Detect parameters and hints and fixes![动画](https://user-images.githubusercontent.com/31949635/151687957-63e8e956-7738-49e2-a48b-1d6b29bcec18.gif)
-- Parameter quick fix![参数快速修复](https://user-images.githubusercontent.com/31949635/154419332-ae875668-c780-4fb2-8522-8322bda79beb.gif)
-- mybatis sql log collection![打印mybatis sql 日志](https://user-images.githubusercontent.com/31949635/154420591-984ee8a8-515f-4cda-bfc9-77d14978f1e6.gif)
-
-
-
+    ### - Mybatis sql 日志 手动选择,一键转成sql语句,并且可以直接执行看到语句结果
+        - 此功能需配置idea旗舰版Database Tool数据库配置或者插件自带的数据库配置
+        - 如果Database Tool数据库和插件自带数据库都配置了,优先使用Database Tool
+        - 数据库配置,并且直接使用Database Tool console.sql功能进行sql的执行
+        - 如果只配置了插件自带的数据库,则使用插件内置的界面进行数据展示
+        - ![](ScreenShot/选择mybatis-sql日志,转成sql语句并执行.gif)
+    ### Mybatis sql日志拦截配置
+        - ![](ScreenShot/mybatis日志拦截配置.gif)
 ## pending function
   - ~~Support one-key refactoring of xml parameters, etc.~~
 Reference project

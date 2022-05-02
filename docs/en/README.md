@@ -34,7 +34,7 @@
 | Support mybatis param parameter refactoring                                                                                               | ✘            | ✔            |
 | Support mybatis if test expression refactoring                                                                                            | ✘            | ✔            |
 | Support mybatis if test expression jump                                                                                                   | ✘            | ✔            |
-
+| Support manual selection of mybatis sql log to convert to sql and execute (starting from version 2022.2.0)                                | ✘            | ✔            |
 ## configuration database
 
 - Use IntelliJ IDEA Ultimate version, configure the database information used in the project, you can get built-in advanced tips
@@ -119,29 +119,15 @@
 ## Mybatis log interception
   ###  mybatis log interception, and automatically format sql and fill parameters
   ![](../ScreenShot/mybatis-sql-log.gif)
-## demo
+  ###  Mybatis sql log Manual selection, one-click conversion to sql statement, and you can directly execute to see the statement results
+  - This function needs to configure the database configuration of the idea flagship version of the Database Tool or the database configuration that comes with the plugin
+  - If both the Database Tool database and the plugin's own database are configured, use the Database Tool first
+  - Database configuration, and directly use the Database Tool console.sql function to execute sql
+  - If only the database that comes with the plug-in is configured, use the built-in interface of the plug-in for data display
+  - ![](../ScreenShot/选择mybatis-sql日志,转成sql语句并执行.gif)
+  ### Mybatis sql log interception configuration
+  - ![](../ScreenShot/mybatis日志拦截配置.gif)
 
-- Plugin
-  settings![插件设置](https://user-images.githubusercontent.com/31949635/154419374-81726a9f-d411-424c-9785-aff768b761f2.gif)
-- jumps![各种跳转](https://user-images.githubusercontent.com/31949635/154419392-3d6c0f04-111c-49dd-a032-ed5bb8d74d53.gif)
-- quick
-  fix![快速修复](https://user-images.githubusercontent.com/31949635/154419490-2fcdfbba-f289-4152-a790-22875fc446f5.gif)
-- Custom database configuration and one-click import project database
-  configuration![配置自定义数据库和导入项目数据库配置](https://user-images.githubusercontent.com/31949635/154419550-070db2d8-b159-4a33-8d93-fec1d2975df6.gif)
-- One-click generation of single-table or multi-table
-  CURD![生成mybatis UI 配置和操作](https://user-images.githubusercontent.com/31949635/154419631-cc87752d-128b-4bb7-8dc4-ef8ef7ac43a7.gif)
-- Mybatis xml parameter one-click completion and parameter
-  jump![自动补全和参数跳转](https://user-images.githubusercontent.com/31949635/154419688-4fe6bc14-d991-433a-9018-b7c667968785.gif)
-- Detect parameters and hints and
-  fixes![动画](https://user-images.githubusercontent.com/31949635/151687957-63e8e956-7738-49e2-a48b-1d6b29bcec18.gif)
-- Parameter quick
-  fix![参数快速修复](https://user-images.githubusercontent.com/31949635/154419332-ae875668-c780-4fb2-8522-8322bda79beb.gif)
-- mybatis sql log
-  collection![打印mybatis sql 日志](https://user-images.githubusercontent.com/31949635/154420591-984ee8a8-515f-4cda-bfc9-77d14978f1e6.gif)
-
-## pending function
-
-- ~~Support one-key refactoring of xml parameters, etc.~~
   Reference project
 
   MybatisX: https://github.com/baomidou/MybatisX
