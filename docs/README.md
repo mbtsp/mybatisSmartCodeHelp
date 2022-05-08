@@ -36,16 +36,18 @@
 | 支持手动选择mybatis sql日志转成sql并执行                      | ✘    | ✔    | 2022.2.0+ |
 | 支持插件数据库直接执行sql脚本                                 | ✘    | ✔    | 2022.2.0+ |
 | 支持连接数据库属性字段配置                                    | ✘    | ✔    | 2022.2.0+ |
-
-## 配置数据库
- - 使用IntelliJ IDEA Ultimate 版本的，配置好项目中使用的数据库信息,可以得到内置的高级提示
- - ![image](https://user-images.githubusercontent.com/31949635/161695601-29615d83-dfd0-4587-9e46-11d31169e382.png)
- - 配置好数据库之后,开发工具还需要知道项目里面sql语句是哪个数据库的,所以我们还要配置下数据库对应的方言,方言不同，提示和检测的信息不同，请选择正确。
- - ![image](https://user-images.githubusercontent.com/31949635/161696350-f4adcef1-eafb-4b5c-b31f-f6602f2293c7.png)
- - .如果配置了多个数据库,还需要再次配置
- - ![image](https://user-images.githubusercontent.com/31949635/161697170-07c348be-f6e0-475c-8fac-e81bda626a5b.png)
- 
-## 数据库生成代码
+| 支持动态插件图标配置                                       | ✘    | ✔    | 2022.2.0+ |
+## 配置插件
+  ### 配置数据库
+   - 使用IntelliJ IDEA Ultimate 版本的，配置好项目中使用的数据库信息,可以得到内置的高级提示
+   - ![image](https://user-images.githubusercontent.com/31949635/161695601-29615d83-dfd0-4587-9e46-11d31169e382.png)
+   - 配置好数据库之后,开发工具还需要知道项目里面sql语句是哪个数据库的,所以我们还要配置下数据库对应的方言,方言不同，提示和检测的信息不同，请选择正确。
+   - ![image](https://user-images.githubusercontent.com/31949635/161696350-f4adcef1-eafb-4b5c-b31f-f6602f2293c7.png)
+   - .如果配置了多个数据库,还需要再次配置
+   - ![image](https://user-images.githubusercontent.com/31949635/161697170-07c348be-f6e0-475c-8fac-e81bda626a5b.png)
+  ### 配置插件图标
+    - ![](ScreenShot/配置插件图标.gif)
+## 数据库
   ### Ultimate 版本自带的Database 生成
     - 选择右则栏位Database,点击要生成的表,如果想要多表生成，同时选择多张表,3 位置表示单表生成, 4位置表示夺标生成
     - 配置代码生成位置
@@ -96,6 +98,11 @@
     -  ![](ScreenShot/一键生成mybatis-generator-config.xml.gif)
   ### 配置数据库连接属性
     - ![](ScreenShot/配置插件数据库连接属性.gif)
+  ### 快速查询表数据
+    - 双击表名进行快速查询表数据 
+    - ![](ScreenShot/快速查询表数据.gif)
+  ### sql文件执行sql语句
+    - ![](ScreenShot/sql文件执行sql语句.gif)
 ## 方法名生成sql
     ### -  根据mapper方法名称生成sql
         - ![](ScreenShot/方法名生成sql.gif)
@@ -129,9 +136,7 @@
         - ![](ScreenShot/选择mybatis-sql日志,转成sql语句并执行.gif)
     ### Mybatis sql日志拦截配置
         - ![](ScreenShot/mybatis日志拦截配置.gif)
-## pending function
-  - ~~Support one-key refactoring of xml parameters, etc.~~
-Reference project
+## Reference project
 
     MybatisX: https://github.com/baomidou/MybatisX
    

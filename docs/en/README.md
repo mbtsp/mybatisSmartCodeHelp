@@ -37,8 +37,9 @@
 | Support manual selection of mybatis sql log to convert to sql and execute                                                                 | ✘            | ✔            | 2022.2.0+      |
 | Support plug-in database to directly execute sql script                                                                                   | ✘            | ✔            | 2022.2.0+      |
 | Support connection database property field configuration                                                                                  | ✘            | ✔            | 2022.2.0+      |
-
-## configuration database
+| Support dynamic plugin icon configuration                                                                                                 | ✘            | ✔            | 2022.2.0+      |
+## configure plugin
+### configuration database
 
 - Use IntelliJ IDEA Ultimate version, configure the database information used in the project, you can get built-in advanced tips
 - ![image](https://user-images.githubusercontent.com/31949635/161695601-29615d83-dfd0-4587-9e46-11d31169e382.png)
@@ -46,8 +47,9 @@
 - ![image](https://user-images.githubusercontent.com/31949635/161696350-f4adcef1-eafb-4b5c-b31f-f6602f2293c7.png)
 - .If multiple databases are configured, you need to configure again
 - ![image](https://user-images.githubusercontent.com/31949635/161697170-07c348be-f6e0-475c-8fac-e81bda626a5b.png)
-
-## database generation code
+### Configure the plugin icon
+- ![](../ScreenShot/配置插件图标.gif)
+## database
 
   ### Database generation that comes with the Ultimate version
 - Select the right column Database, click on the table to be generated, if you want to generate multiple tables, select multiple tables at the same time, the 3 position means single table generation, and the 4 position means outright generation
@@ -99,6 +101,12 @@
     - ![](../ScreenShot/一键生成mybatis-generator-config.xml.gif)
   ### Configure database connection properties
     - ![](../ScreenShot/配置插件数据库连接属性.gif)
+  ### Quick query table data
+    - Double-click the table name to quickly query table data
+    - ![](../ScreenShot/快速查询表数据.gif)
+  ### sql file executes sql statement
+    - ![](../ScreenShot/sql文件执行sql语句.gif)
+
 ## method name to generate sql
   ### Generate sql based on mapper method name
   ![](../ScreenShot/方法名生成sql.gif)
@@ -133,7 +141,7 @@
   ### Mybatis sql log interception configuration
   - ![](../ScreenShot/mybatis日志拦截配置.gif)
 
-  Reference project
+## Reference project
 
   MybatisX: https://github.com/baomidou/MybatisX
 
