@@ -37,6 +37,8 @@
 | 支持插件数据库直接执行sql脚本                                 | ✘    | ✔    | 2022.2.0+ |
 | 支持连接数据库属性字段配置                                    | ✘    | ✔    | 2022.2.0+ |
 | 支持动态插件图标配置                                       | ✘    | ✔    | 2022.2.0+ |
+### 讨论群
+   [快速加入](https://qm.qq.com/cgi-bin/qm/qr?k=2OxKmoCNOEY3KmfvWENscQmAwpKfkfR2&jump_from=webapi)
 ## 配置插件
   ### 配置数据库
    - 使用IntelliJ IDEA Ultimate 版本的，配置好项目中使用的数据库信息,可以得到内置的高级提示
