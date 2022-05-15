@@ -1,7 +1,7 @@
 ### <center><font color=blue size=5>Various functions are being improved, and you are welcome to submit bugs to promote the improvement of the plug-in.</font></center>
 QQ群:777347929
 ## [document](https://zoulejiu.github.io/mybatisSmartCodeHelp)
-## Pro version[2022.2.1](https://plugins.jetbrains.com/plugin/18389-mybatis-smart-code-help-pro) | Free version [1.2.2](https://plugins.jetbrains.com/plugin/16245-mybatis-smart-code-help)
+## Pro version[2022.2.2](https://plugins.jetbrains.com/plugin/18389-mybatis-smart-code-help-pro) | Free version [1.2.2](https://plugins.jetbrains.com/plugin/16245-mybatis-smart-code-help)
 | 功能点                                              | 免费版本 | 收费版本 | 插件版本      |
 |--------------------------------------------------|------|------|-----------|
 | 支持配置DAO SERVICE 等基本信息的一键生成                       | ✔    | ✔    | 2022.1.1+ |
