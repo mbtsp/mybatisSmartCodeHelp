@@ -38,6 +38,7 @@
 | Support plug-in database to directly execute sql script                                                                                   | ✘            | ✔            | 2022.2.0+      |
 | Support connection database property field configuration                                                                                  | ✘            | ✔            | 2022.2.0+      |
 | Support dynamic plugin icon configuration                                                                                                 | ✘            | ✔            | 2022.2.0+      |
+| Execute mybatis Xml Sql statement parsing and quick test                                                                                  | ✘            | ✔            | 2022.2.5+      |
 ## configure plugin
 ### configuration database
 
@@ -106,6 +107,8 @@
     - ![](../ScreenShot/快速查询表数据.gif)
   ### sql file executes sql statement
     - ![](../ScreenShot/sql文件执行sql语句.gif)
+## Xml Sql statement parsing and execution
+  - ![](../ScreenShot/xml_Sql语句解析和执行.gif)
 
 ## method name to generate sql
   ### Generate sql based on mapper method name

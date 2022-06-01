@@ -1,7 +1,7 @@
 ### <center><font color=blue size=5>Various functions are being improved, and you are welcome to submit bugs to promote the improvement of the plug-in.</font></center>
 QQ群:777347929
 ## [document](https://zoulejiu.github.io/mybatisSmartCodeHelp)
-## Pro version[2022.2.2](https://plugins.jetbrains.com/plugin/18389-mybatis-smart-code-help-pro) | Free version [1.2.2](https://plugins.jetbrains.com/plugin/16245-mybatis-smart-code-help)
+## Pro version[2022.2.5](https://plugins.jetbrains.com/plugin/18389-mybatis-smart-code-help-pro) | Free version [1.2.2](https://plugins.jetbrains.com/plugin/16245-mybatis-smart-code-help)
 | 功能点                                              | 免费版本 | 收费版本 | 插件版本      |
 |--------------------------------------------------|------|------|-----------|
 | 支持配置DAO SERVICE 等基本信息的一键生成                       | ✔    | ✔    | 2022.1.1+ |
@@ -39,6 +39,7 @@ QQ群:777347929
 | 支持插件数据库直接执行sql脚本                                 | ✘    | ✔    | 2022.2.0+ |
 | 支持连接数据库属性字段配置                                    | ✘    | ✔    | 2022.2.0+ |
 | 支持动态插件图标配置                                       | ✘    | ✔    | 2022.2.0+ |
+| 支持Xml Sql语句解析和快速执行                               | ✘    | ✔    | 2022.2.5+ |
 ## demo
 - param parameter jump and if test expression parameter jump, property parameter jump![param参数跳转和if test 表达式参数跳转,property参数跳转](https://user-images.githubusercontent.com/31949635/160225943-b11b97dc-6a84-445d-a6b4-93e50b68dbe6.gif)
 - param parameter refactoring and method parameter refactoring![param参数重构和方法参数重构](https://user-images.githubusercontent.com/31949635/160225979-6d78960a-80d4-438d-b0e8-960720adb05c.gif)

@@ -37,6 +37,7 @@
 | 支持插件数据库直接执行sql脚本                                 | ✘    | ✔    | 2022.2.0+ |
 | 支持连接数据库属性字段配置                                    | ✘    | ✔    | 2022.2.0+ |
 | 支持动态插件图标配置                                       | ✘    | ✔    | 2022.2.0+ |
+| 执行mybatis Xml Sql语句解析和快速测试                       | ✘    | ✔    | 2022.2.5+ |
 ### 讨论群
    [快速加入](https://qm.qq.com/cgi-bin/qm/qr?k=2OxKmoCNOEY3KmfvWENscQmAwpKfkfR2&jump_from=webapi)
 ## 配置插件
@@ -105,6 +106,8 @@
     - ![](ScreenShot/快速查询表数据.gif)
   ### sql文件执行sql语句
     - ![](ScreenShot/sql文件执行sql语句.gif)
+## Xml Sql语句解析和执行
+    - ![](ScreenShot/xml_Sql语句解析和执行.gif)
 ## 方法名生成sql
     ### -  根据mapper方法名称生成sql
         - ![](ScreenShot/方法名生成sql.gif)
