@@ -2,43 +2,43 @@
 
 ### Features
 
-| function points                                                                                                                           | Free version | Paid version | Plugin version |
-|-------------------------------------------------------------------------------------------------------------------------------------------|--------------|--------------|----------------|
-| Support one-click generation of basic information such as configuration DAO SERVICE                                                       | ✔            | ✔            | 2022.1.1+      |
-| Support the use of common annotations such as @Data                                                                                       | ✔            | ✔            | 2022.1.1+      |
-| Supports XML attributes to automatically map entities and database table fields                                                           | ✔            | ✔            | 2022.1.1+      |
-| Supports XML editing auto-suggestion                                                                                                      | ✔            | ✔            | 2022.1.1+      |
-| Support parameter detection in XML collection                                                                                             | ✔            | ✔            | 2022.1.1+      |
-| Support Dao method to automatically generate Sql                                                                                          | ✔            | ✔            | 2022.1.1+      |
-| Support Service to be generated according to different modes                                                                              | ✔            | ✔            | 2022.1.1+      |
-| Supports @trim entity classes to remove spaces                                                                                            | ✔            | ✔            | 2022.1.1+      |
-| Support XML sql to automatically generate Dao method~~                                                                                    | ✔            | ✔            | 2022.1.1+      |
-| Supports custom database tools, the usage method is the same as the one that comes with idea, and it can be used in the community edition | ✔            | ✔            | 2022.1.1+      |
-| Support TK mapper                                                                                                                         | ✔            | ✔            | 2022.1.1+      |
-| Database configuration supports oracle                                                                                                    | ✔            | ✔            | 2022.1.1+      |
-| Support Service mapper method to jump directly to xml file                                                                                | ✔            | ✔            | 2022.1.1+      |
-| Support multi-table definition one-key generation                                                                                         | ✔            | ✔            | 2022.1.1+      |
-| Supports dynamic startup of built-in database tools                                                                                       | ✔            | ✔            | 2022.1.1+      |
-| Detect whether the mapper method is implemented in the xml file, and provide a one-click generation xml method                            | ✔            | ✔            | 2022.1.1+      |
-| Check whether the return value of mapper is consistent with xml                                                                           | ✔            | ✔            | 2022.1.1+      |
-| Support internationalization                                                                                                              | ✔            | ✔            | 2022.1.1+      |
-| Support Mybatis plus3                                                                                                                     | ✘            | ✔            | 2022.1.1+      |
-| Supports mybatis sql log capture and formatted output                                                                                     | ✘            | ✔            | 2022.1.1+      |
-| Add field comment display to table configuration UI                                                                                       | ✘            | ✔            | 2022.1.1+      |
-| Custom database configuration supports one-click import of project database configuration                                                 | ✘            | ✔            | 2022.1.1+      |
-| Support Xml file #{} parameter to jump to method or actually use class field                                                              | ✘            | ✔            | 2022.1.1+      |
-| Support xml file Mybatis parameter detection and quick repair                                                                             | ✘            | ✔            | 2022.1.1+      |
-| Support xml file Mybatis parameter detection                                                                                              | ✘            | ✔            | 2022.1.1+      |
-| Support mybatis log window to collect project mybatis sql and build it into sql that can be executed directly                             | ✘            | ✔            | 2022.1.1+      |
-| Support mybatis param parameter jumping                                                                                                   | ✘            | ✔            | 2022.1.5+      |
-| Support mybatis param parameter refactoring                                                                                               | ✘            | ✔            | 2022.1.5+      |
-| Support mybatis if test expression refactoring                                                                                            | ✘            | ✔            | 2022.1.5+      |
-| Support mybatis if test expression jump                                                                                                   | ✘            | ✔            | 2022.1.5+      |
-| Support manual selection of mybatis sql log to convert to sql and execute                                                                 | ✘            | ✔            | 2022.2.0+      |
-| Support plug-in database to directly execute sql script                                                                                   | ✘            | ✔            | 2022.2.0+      |
-| Support connection database property field configuration                                                                                  | ✘            | ✔            | 2022.2.0+      |
-| Support dynamic plugin icon configuration                                                                                                 | ✘            | ✔            | 2022.2.0+      |
-| Execute mybatis Xml Sql statement parsing and quick test                                                                                  | ✘            | ✔            | 2022.2.5+      |
+| ``function points``                                                                                                                       | ``Support`` | ``Plugin version`` |
+|-------------------------------------------------------------------------------------------------------------------------------------------|-------------|--------------------|
+| Support one-click generation of basic information such as configuration DAO SERVICE                                                       | ✔           | 2022.1.1+          |
+| Support the use of common annotations such as @Data                                                                                       | ✔           | 2022.1.1+          |
+| Supports XML attributes to automatically map entities and database table fields                                                           | ✔           | 2022.1.1+          |
+| Supports XML editing auto-suggestion                                                                                                      | ✔           | 2022.1.1+          |
+| Support parameter detection in XML collection                                                                                             | ✔           | 2022.1.1+          |
+| Support Dao method to automatically generate Sql                                                                                          | ✔           | 2022.1.1+          |
+| Support Service to be generated according to different modes                                                                              | ✔           | 2022.1.1+          |
+| Supports @trim entity classes to remove spaces                                                                                            | ✔           | 2022.1.1+          |
+| Support XML sql to automatically generate Dao method~~                                                                                    | ✔           | 2022.1.1+          |
+| Supports custom database tools, the usage method is the same as the one that comes with idea, and it can be used in the community edition | ✔           | 2022.1.1+          |
+| Support TK mapper                                                                                                                         | ✔           | 2022.1.1+          |
+| Database configuration supports oracle                                                                                                    | ✔           | 2022.1.1+          |
+| Support Service mapper method to jump directly to xml file                                                                                | ✔           | 2022.1.1+          |
+| Support multi-table definition one-key generation                                                                                         | ✔           | 2022.1.1+          |
+| Supports dynamic startup of built-in database tools                                                                                       | ✔           | 2022.1.1+          |
+| Detect whether the mapper method is implemented in the xml file, and provide a one-click generation xml method                            | ✔           | 2022.1.1+          |
+| Check whether the return value of mapper is consistent with xml                                                                           | ✔           | 2022.1.1+          |
+| Support internationalization                                                                                                              | ✔           | 2022.1.1+          |
+| Support Mybatis plus3                                                                                                                     | ✔           | 2022.1.1+          |
+| Supports mybatis sql log capture and formatted output                                                                                     | ✔           | 2022.1.1+          |
+| Add field comment display to table configuration UI                                                                                       | ✔           | 2022.1.1+          |
+| Custom database configuration supports one-click import of project database configuration                                                 | ✔           | 2022.1.1+          |
+| Support Xml file #{} parameter to jump to method or actually use class field                                                              | ✔           | 2022.1.1+          |
+| Support xml file Mybatis parameter detection and quick repair                                                                             | ✔           | 2022.1.1+          |
+| Support xml file Mybatis parameter detection                                                                                              | ✔           | 2022.1.1+          |
+| Support mybatis log window to collect project mybatis sql and build it into sql that can be executed directly                             | ✔           | 2022.1.1+          |
+| Support mybatis param parameter jumping                                                                                                   | ✔           | 2022.1.5+          |
+| Support mybatis param parameter refactoring                                                                                               | ✔           | 2022.1.5+          |
+| Support mybatis if test expression refactoring                                                                                            | ✔           | 2022.1.5+          |
+| Support mybatis if test expression jump                                                                                                   | ✔           | 2022.1.5+          |
+| Support manual selection of mybatis sql log to convert to sql and execute                                                                 | ✔           | 2022.2.0+          |
+| Support plug-in database to directly execute sql script                                                                                   | ✔           | 2022.2.0+          |
+| Support connection database property field configuration                                                                                  | ✔           | 2022.2.0+          |
+| Support dynamic plugin icon configuration                                                                                                 | ✔           | 2022.2.0+          |
+| Execute mybatis Xml Sql statement parsing and quick test                                                                                  | ✔           | 2022.2.5+          |
 ## configure plugin
 ### configuration database
 
