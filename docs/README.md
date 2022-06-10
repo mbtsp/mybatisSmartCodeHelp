@@ -81,7 +81,7 @@
       - 13.service接口对应的工程目录eg：D:\workspace\demo\src\main\java
       - 14.service实现类所在的包名称(只要java目录下的包路径就可以)
       - 15.service实现类对应的工程目录eg：D:\workspace\demo\src\main\java
-      - ![](/ScreenShot/img.png)
+   - ![](/ScreenShot/img.png)
     - 配置数据库表字段信息
      - 可以调整要生成的字段级别信息,类型
       - ![](ScreenShot/img_1.png)
@@ -91,7 +91,7 @@
 
 ### 社区版生成
 
-     - 先查看插件是否激活成功
+- 先查看插件是否激活成功
        - ![](ScreenShot/img_3.png)
        - ![](ScreenShot/img_4.png)
      - 激活插件成功之后,还要去配置中查看插件带的数据库工具是否开启,选择勾选启动内置数据库工具
@@ -116,63 +116,61 @@
 
 ### 一键生成mybatis generator的XMl文件
 
-    -  ![](ScreenShot/一键生成mybatis-generator-config.xml.gif)
+-  ![](ScreenShot/一键生成mybatis-generator-config.xml.gif)
 
 ### 配置数据库连接属性
 
-    - ![](ScreenShot/配置插件数据库连接属性.gif)
+- ![](ScreenShot/配置插件数据库连接属性.gif)
 
 ### 快速查询表数据
 
-    - 双击表名进行快速查询表数据 
+  - 双击表名进行快速查询表数据 
     - ![](ScreenShot/快速查询表数据.gif)
 
 ### sql文件执行sql语句
 
-    - ![](ScreenShot/sql文件执行sql语句.gif)
+- ![](ScreenShot/sql文件执行sql语句.gif)
 
 ## Xml Sql语句解析和执行
-
-    - ![](ScreenShot/xml_Sql语句解析和执行.gif)
+- ![](ScreenShot/xml_Sql语句解析和执行.gif)
 
 ## 方法名生成sql
-
-    ### -  根据mapper方法名称生成sql
-        - ![](ScreenShot/方法名生成sql.gif)
-    ### - 根据mapper方法名称生成sql(带if test)
-        - ![](ScreenShot/方法名生成if-test-sql.gif)
-    ### - 生成findAll和selectAll方法
-        - ![](ScreenShot/生成findAll和selectALl方法.gif)
-    ### - 生成insertAll和insertBatch方法
-        - ![](ScreenShot/生成insertAll和insertBatch方法.gif)
-    ### - 生成updateBatch和updateBatchSelective方法
-        - ![](ScreenShot/生成updateBatch和updateBatchSeletive方法.gif)
+ ### -  根据mapper方法名称生成sql
+ - ![](ScreenShot/方法名生成sql.gif)
+ ### - 根据mapper方法名称生成sql(带if test)
+ - ![](ScreenShot/方法名生成if-test-sql.gif)
+ ### - 生成findAll和selectAll方法
+ - ![](ScreenShot/生成findAll和selectALl方法.gif)
+ ### - 生成insertAll和insertBatch方法
+ - ![](ScreenShot/生成insertAll和insertBatch方法.gif)
+ ### - 生成updateBatch和updateBatchSelective方法
+ - ![](ScreenShot/生成updateBatch和updateBatchSeletive方法.gif)
 
 ## 自动补全和参数检测
 
-    ### - xml param 自动补全
-        - ![](ScreenShot/param参数补全.gif)
-    ### - param检测是否正确和类型是否正确
-        - ![](ScreenShot/param参数检测.gif)
-    ### - if test 参数自动补全
-        - ![](ScreenShot/iftest参数补全.gif)
-    ### - resultMap property检测和补全
-        - ![](ScreenShot/resultMap-property自动补全.gif)
-    ### - resultMap中的collection association自动补全
-        - ![](ScreenShot/resultMap-collection自动补全.gif)
+   ### - xml param 自动补全
+   - ![](ScreenShot/param参数补全.gif)
+   ### - param检测是否正确和类型是否正确
+   - ![](ScreenShot/param参数检测.gif)
+   ### - if test 参数自动补全
+   - ![](ScreenShot/iftest参数补全.gif)
+   ### - resultMap property检测和补全
+   - ![](ScreenShot/resultMap-property自动补全.gif)
+   ### - resultMap中的collection association自动补全
+   - ![](ScreenShot/resultMap-collection自动补全.gif)
 
 ## Mybatis日志拦截
 
-    ### - mybatis日志拦截,并且自动格式化sql和填充参数
-        - ![](ScreenShot/mybatis-sql-log.gif)
-    ### - Mybatis sql 日志 手动选择,一键转成sql语句,并且可以直接执行看到语句结果
-        - 此功能需配置idea旗舰版Database Tool数据库配置或者插件自带的数据库配置
-        - 如果Database Tool数据库和插件自带数据库都配置了,优先使用Database Tool
-        - 数据库配置,并且直接使用Database Tool console.sql功能进行sql的执行
-        - 如果只配置了插件自带的数据库,则使用插件内置的界面进行数据展示
-        - ![](ScreenShot/选择mybatis-sql日志,转成sql语句并执行.gif)
-    ### Mybatis sql日志拦截配置
-        - ![](ScreenShot/mybatis日志拦截配置.gif)
+   ### - mybatis日志拦截,并且自动格式化sql和填充参数
+   - ![](ScreenShot/mybatis-sql-log.gif)
+   ### - Mybatis sql 日志 手动选择,一键转成sql语句,并且可以直接执行看到语句结果
+   - 此功能需配置idea旗舰版Database Tool数据库配置或者插件自带的数据库配置
+   - 如果Database Tool数据库和插件自带数据库都配置了,优先使用Database Tool
+   - 数据库配置,并且直接使用Database Tool console.sql功能进行sql的执行
+   - 如果只配置了插件自带的数据库,则使用插件内置的界面进行数据展示
+   - ![](ScreenShot/选择mybatis-sql日志,转成sql语句并执行.gif)
+   ### Mybatis sql日志拦截配置
+   - ![](ScreenShot/mybatis日志拦截配置.gif)
 
 ## Reference project
 
