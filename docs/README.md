@@ -183,10 +183,10 @@
    - ![](ScreenShot/mybatis日志拦截配置.gif)
 ## 动态模板
    
-   ### - cda 快速生成<![CDATA[]]>
+   ### - cda 快速生成&lt;![CDATA[]]&gt;
    ### - #{ 快速生成 #{}
    ### - ${ 快速生成${}
-   ### - ift或者<ift 快速生成<if test=""></if>
+   ### - ift或者&quot;ift 快速生成&lt;if test=&quot;&quot;&gt;&lt;/if&gt;
 ## Reference project
 
     MybatisX: https://github.com/baomidou/MybatisX
