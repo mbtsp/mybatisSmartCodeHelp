@@ -40,7 +40,7 @@
 | 支持连接数据库属性字段配置                                                  | ✔        | 2022.2.0+ |
 | 支持动态插件图标配置                                                     | ✔        | 2022.2.0+ |
 | 执行mybatis Xml Sql语句解析和快速测试                                     | ✔        | 2022.2.5+ |
-
+| 支持动态模板                                     | ✔        | 2022.3.3+ |
    ### 讨论群
 
    [快速加入](https://qm.qq.com/cgi-bin/qm/qr?k=2OxKmoCNOEY3KmfvWENscQmAwpKfkfR2&jump_from=webapi)
@@ -181,7 +181,12 @@
    - ![](ScreenShot/选择mybatis-sql日志,转成sql语句并执行.gif)
    ### Mybatis sql日志拦截配置
    - ![](ScreenShot/mybatis日志拦截配置.gif)
-
+## 动态模板
+   
+    ### - cda 快速生成<![CDATA[]]>
+    ### - #{ 快速生成 #{}
+    ### - ${ 快速生成${}
+    ### - ift或者<ift 快速生成<if test=""></if>
 ## Reference project
 
     MybatisX: https://github.com/baomidou/MybatisX
