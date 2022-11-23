@@ -144,6 +144,16 @@
   ### Mybatis sql log interception configuration
   - ![](../ScreenShot/mybatis日志拦截配置.gif)
 
+## dynamic template
+   
+   ### - cda quick build&lt;![CDATA[]]&gt;
+   
+   ###  #{ quick build#\{param,jdbcType=XX\}
+   
+   ###  "${ quick build\$\{param\}"
+   
+   ### - ift or &quot;ift quick build&lt;if test=&quot;&quot;&gt;&lt;/if&gt;
+
 ## Reference project
 
   MybatisX: https://github.com/baomidou/MybatisX
