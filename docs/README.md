@@ -185,9 +185,9 @@
    
    ### - cda 快速生成&lt;![CDATA[]]&gt;
    
-   ###  #{ 快速生成#\{\}
+   ###  #{ 快速生成#\{param,jdbcType=XX\}
    
-   ###  \&#36;{ 快速生成\&#36;\{\}
+   ###  "${ 快速生成\$\{param\}"
    
    ### - ift或者&quot;ift 快速生成&lt;if test=&quot;&quot;&gt;&lt;/if&gt;
 ## Reference project
